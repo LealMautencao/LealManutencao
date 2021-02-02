@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Time New Roman;
+}
+
+body{
+	background-image: url("https://www.10wallpaper.com/wallpaper/2560x1600/1308/simple_gray-design_HD_wallpaper_2560x1600.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.nomeEmpresa{
+	margin-left: 100px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+/*Banner do Menu */
+.banner{
+	background-color: rgba(255, 255, 255, 0.698);
+	width: 100%;
+	background-size: cover;
+}
+
+/* Logo da Empresa */
+.logo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 6%;
+	padding-left: 2%;
+}
+/*Link Menu do Site */
+
+#menu ul{
+	margin: 0;
+	color: white;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	padding: 20px 30px;
+	display: inline-block;
+	color: rgb(122, 31, 31);
+	text-decoration: none;
+	
+}
+
+#menu ul li a:hover{
+	color: red;
+}
+
+/* FALE CONOSCO */
+
+#contato{
+	text-align: center;
+	color: rgb(97, 20, 20); 
+	margin-top: 5%;
+}
+
+h3{
+	margin-top: 3%;
+}
+
+.fotoDivugacao{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 20%;
+}
+
+.divugacao{
+	color: rgb(97, 20, 20); 
+}
+
+/*Sobre NÓS */
+
+#texto{
+	color:  white; 
+}
+
+.titulo1{
+	color:rgb(97, 20, 20);
+	text-align: center;
+	margin-top: 5%;
+}
+
+p{
+	margin-top: 3%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
